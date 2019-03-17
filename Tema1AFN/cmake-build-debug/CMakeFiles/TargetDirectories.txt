@@ -1,0 +1,3 @@
+C:/Users/ioana/Desktop/LFA/Tema1AFN/cmake-build-debug/CMakeFiles/Tema1AFN.dir
+C:/Users/ioana/Desktop/LFA/Tema1AFN/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ioana/Desktop/LFA/Tema1AFN/cmake-build-debug/CMakeFiles/rebuild_cache.dir

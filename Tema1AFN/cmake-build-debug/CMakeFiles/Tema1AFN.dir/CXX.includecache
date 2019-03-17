@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ioana/Desktop/LFA/Tema1AFN/AFN.h
+fstream
+-
+iostream
+-
+vector
+-
+
+C:/Users/ioana/Desktop/LFA/Tema1AFN/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+AFN.h
+C:/Users/ioana/Desktop/LFA/Tema1AFN/AFN.h
+
