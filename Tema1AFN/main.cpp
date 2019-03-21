@@ -10,7 +10,7 @@ int main() {
     in.open("C:/Users/ioana/Desktop/LFA/Tema1AFN/Read.in");
     in >> x;
     bool gasit = false;
-    if (x.verificaCuvant("", 2, gasit))
+    if (x.verificaCuvant("", 0, gasit))
         cout << 1;
     else
         cout << 0;

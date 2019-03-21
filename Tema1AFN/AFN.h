@@ -16,7 +16,6 @@ private:
     vector<int> stariFinale;
     string alfabet;
     int numarStari;
-    int nrTranzitii;
     vector< pair<int, char> > tranzitii[100];
 
 public:
@@ -32,7 +31,6 @@ AFN::AFN()
     stareInitiala = 0;
     alfabet = "";
     numarStari = 1;
-    nrTranzitii = 0;
 }
 
 bool AFN::verificaCuvant(string cuvant, int stare, bool& gasit)
@@ -93,8 +91,9 @@ ifstream& operator>> (ifstream& in, AFN& afn)
         afn.stariFinale.push_back(st);
     }
     //Lista de adiacenta
-    in >> afn.nrTranzitii;
-    for(int i = 0; i < afn.nrTranzitii; i++)
+    int nrTranzitii;
+    in >> nrTranzitii;
+    for(int i = 0; i < nrTranzitii; i++)
     {
         int start;
         char litera;
