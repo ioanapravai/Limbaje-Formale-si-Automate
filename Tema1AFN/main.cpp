@@ -11,9 +11,9 @@ int main() {
     in >> x;
     bool gasit = false;
     if (x.verificaCuvant("", 0, gasit))
-        cout << 1;
+        cout << "Merge!!";
     else
-        cout << 0;
+        cout << "Cuvantul nu este acceptat";
 
     return 0;
 }

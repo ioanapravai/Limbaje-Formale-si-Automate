@@ -1,0 +1,4 @@
+"C:\Users\ioana\CLion 2017.3.5\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\ioana\Desktop\LFA\AFN-AFD
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/ioana/Desktop/LFA/AFN-AFD/cmake-build-debug

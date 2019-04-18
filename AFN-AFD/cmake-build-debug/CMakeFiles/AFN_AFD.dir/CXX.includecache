@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ioana/Desktop/LFA/AFN-AFD/automat.h
+unordered_map
+-
+fstream
+-
+vector
+-
+iostream
+-
+queue
+-
+algorithm
+-
+thread
+-
+chrono
+-
+
+C:/Users/ioana/Desktop/LFA/AFN-AFD/main.cpp
+iostream
+-
+fstream
+-
+automat.h
+C:/Users/ioana/Desktop/LFA/AFN-AFD/automat.h
+
